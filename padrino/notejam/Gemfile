@@ -27,12 +27,12 @@ gem 'dm-core'
 
 # Test requirements
 gem 'rspec', :group => 'test'
-gem 'rack-test', :require => 'rack/test', :group => 'test'
+gem 'rack-test', '>= 0.6.2', :require => 'rack/test', :group => 'test'
 
 gem 'database_cleaner'
 
 # Padrino Stable Gem
-gem 'padrino', '0.12.2'
+gem 'padrino', '0.12.9'
 
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
